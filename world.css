@@ -1,1 +1,69 @@
-/* Add your own styles */
+header {
+    display: flex;
+    background-color: rgb(74, 71, 71);
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+header img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+}
+
+main {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgb(225, 20, 20);
+    border-radius: 5px;
+    width: 90px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    margin: 0 5px;
+}
+
+button:hover {
+    background-color: rgb(220, 0, 0);
+}
+
+input[type="search"] {
+    padding: 10px;
+    margin: 0 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd79;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(250, 255, 196);
+}
